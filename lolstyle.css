@@ -1,0 +1,34 @@
+html,
+body {
+   font-family: helvetica;
+   color: black;
+   margin:0;
+   padding:0;
+   height:100%;
+   background:#D2D2EB;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#8E8ECC;
+   padding:10px;
+}
+#menu {
+    background-color:#B2B2FF;
+    width:125px;
+    float:left;
+}
+#body {
+   padding:10px;
+   padding-bottom:20px;
+   background:#D2D2EB;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   
+   background:#8E8ECC;
+}
